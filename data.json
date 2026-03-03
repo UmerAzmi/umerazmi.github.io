@@ -1,0 +1,104 @@
+{
+    "projects": [
+    {
+      "title": "AI Embedded QR Code Generator & Decoder",
+      "description": "An AI-powered system to generate and decode QR codes with enhanced artistic styling. Built with Python and deployed using Streamlit for an interactive web interface.",
+      "technologies": ["Python", "Streamlit", "OpenCV", "PIL", "NumPy"],
+      "link": null,
+      "image": "images/qr_project.png",
+      "video": null,
+      "status": "completed"
+    },
+    {
+      "title": "BookHub – AI Book Recommendation System",
+      "description": "A content-based book recommendation system using NLP techniques such as cosine similarity and vectorization to suggest personalized book recommendations.",
+      "technologies": ["Python", "Streamlit", "Pandas", "Scikit-learn"],
+      "link": null,
+      "image": "images/bookhub.png",
+      "video": null,
+      "status": "completed"
+    },
+    {
+      "title": "Fair Care Pharmacy Website",
+      "description": "A responsive business website developed for a local pharmacy to establish an online presence with contact integration, Google Maps, and WhatsApp access.",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+      "link": "https://your-vercel-link.vercel.app",
+      "image": "images/faircare.png",
+      "video": null,
+      "status": "live"
+    },
+    {
+      "title": "JavaScript Mastery Guide",
+      "description": "An interactive JavaScript learning platform covering fundamentals to advanced concepts including asynchronous programming and DOM manipulation with live examples.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "link": "https://UmerAzmi.github.io/javascript-mastery/",
+      "image": "images/js_mastery.png",
+      "video": null,
+      "status": "live"
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      { "name": "Python", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { "name": "NumPy", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+      { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+      { "name": "Streamlit", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
+      { "name": "OpenCV", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+      { "name": "Matplotlib", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" },
+      { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { "name": "C", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+      { "name": "C++", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+      { "name": "Java", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" }
+    ],
+    "databases": [
+      { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+      { "name": "MySQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+      { "name": "PostgreSQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
+    ],
+    "web_technologies": [
+      { "name": "HTML", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+      { "name": "CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+      { "name": "Tailwind CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+      { "name": "React", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { "name": "Next.js", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" }
+    ],
+    "data_tools": [
+      { "name": "Power BI", "logo": "https://img.icons8.com/color/48/power-bi.png" },
+      { "name": "Excel", "logo": "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" },
+      { "name": "Tableau", "logo": "https://img.icons8.com/color/48/tableau-software.png" }
+    ]
+
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Information Technology",
+      "institution": "University of Mumbai",
+      "period": "2022 - 2025",
+      "description": "Focused on Python development, Data Structures & Algorithms, Artificial Intelligence, Data Science, and Database Management with hands-on project implementation.",
+      "grade": "CGPA: 7.8"
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "institution": "Maharashtra State Board of Technical Education",
+      "period": "2018 - 2021",
+      "description": "Built strong foundations in Java programming, Data Structures, Algorithms, and Database Management through practical coursework and lab-based development.",
+      "grade": "Percentage: 84.13%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Freelance Web Developer",
+      "company": "Self-Employed",
+      "period": "Nov 2025 - Present",
+      "description": "Built and delivered custom websites and web applications for clients across various industries.",
+      "highlights": ["Built pharmacy website using Next.js and Tailwind CSS", "Improved Shopify e-commerce UI through CSS customization", "Currently developing a responsive education platform"]
+    },
+    {
+      "role": "Data Analysis Intern",
+      "company": "Liger Monk",
+      "period": "June 2024 - December 2024",
+      "description":"Performed data cleaning, analysis, and visualization to support business decisions.",
+      "highlights": ["Power BI dashboards and Excel reports", "SQL queries & reporting","Generated analytical reports to identify trends and insights"]
+    }
+  ]
+}
