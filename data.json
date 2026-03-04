@@ -48,46 +48,52 @@
   ],
   "skills": {
     "programming_languages": [
-      { "name": "Python", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-      { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { "name": "C", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-      { "name": "C++", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-      { "name": "Java", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" }
+      { "name": "Python", "logo": "./images/icons/python.svg" },
+      { "name": "JavaScript", "logo": "./images/icons/javascript.svg" },
+      { "name": "SQL", "logo": "./images/icons/sql.svg" },
+      { "name": "C", "logo": "./images/icons/c.svg" },
+      { "name": "C++", "logo": "./images/icons/cpp.svg" },
+      { "name": "Java", "logo": "./images/icons/java.svg" }
     ],
+
     "libraries": [
-      { "name": "NumPy", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
-      { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
-      { "name": "Streamlit", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
-      { "name": "OpenCV", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
-      { "name": "Matplotlib", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" }
+      { "name": "NumPy", "logo": "./images/icons/numpy.svg" },
+      { "name": "Pandas", "logo": "./images/icons/pandas.svg" },
+      { "name": "Streamlit", "logo": "./images/icons/streamlit.svg" },
+      { "name": "OpenCV", "logo": "./images/icons/opencv.svg" },
+      { "name": "Matplotlib", "logo": "./images/icons/matplotlib.svg" }
     ],
+
     "databases": [
-      { "name": "MySQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { "name": "PostgreSQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
+      { "name": "MySQL", "logo": "./images/icons/mysql.svg" },
+      { "name": "PostgreSQL", "logo": "./images/icons/postgresql.svg" }
     ],
+
     "web_technologies": [
-      { "name": "HTML", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { "name": "CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-      { "name": "Tailwind CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-      { "name": "React", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" }
+      { "name": "HTML", "logo": "./images/icons/html.svg" },
+      { "name": "CSS", "logo": "./images/icons/css.svg" },
+      { "name": "Tailwind CSS", "logo": "./images/icons/tailwindcss.svg" },
+      { "name": "React", "logo": "./images/icons/react.svg" }
     ],
+
     "data_tools": [
-      { "name": "Power BI", "logo": "https://img.icons8.com/color/48/power-bi.png" },
-      { "name": "Excel", "logo": "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" },
-      { "name": "Tableau", "logo": "https://img.icons8.com/color/48/tableau-software.png" }
+      { "name": "Power BI", "logo": "./images/icons/powerbi.svg" },
+      { "name": "Excel", "logo": "./images/icons/excel.svg" },
+      { "name": "Tableau", "logo": "./images/icons/tableau.svg" }
     ],
+
     "version_control": [
-      { "name": "Git", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-      { "name": "GitHub", "logo": "https://img.icons8.com/fluency/48/github.png" }
+      { "name": "Git", "logo": "./images/icons/git.svg" },
+      { "name": "GitHub", "logo": "./images/icons/github.svg" }
     ],
+
     "ai_tools": [
-      { "name": "ChatGPT",    "logo": "https://img.icons8.com/color/48/chatgpt.png" },
-      { "name": "Claude",     "logo": "https://img.icons8.com/color/48/claude.png" },
-      { "name": "DeepSeek",   "logo": "https://img.icons8.com/color/48/deepseek.png" },
-      { "name": "Perplexity", "logo": "https://img.icons8.com/color/48/perplexity.png" },
-      { "name": "Ollama",     "logo": "https://img.icons8.com/color/48/ollama.png" },
-      { "name": "CodeLlama",  "logo": "https://img.icons8.com/color/48/meta.png" }
+      { "name": "ChatGPT", "logo": "./images/icons/openai.svg" },
+      { "name": "Claude", "logo": "./images/icons/claude.svg" },
+      { "name": "DeepSeek", "logo": "./images/icons/deepseek.svg" },
+      { "name": "Perplexity", "logo": "./images/icons/perplexity.svg" },
+      { "name": "Ollama", "logo": "./images/icons/ollama.svg" },
+      { "name": "CodeLlama", "logo": "./images/icons/meta.svg" }
     ]
   },
   "education": [
