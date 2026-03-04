@@ -185,24 +185,25 @@
           <div><h4>GitHub</h4><a href="https://github.com/UmerAzmi" target="_blank">UmerAzmi</a></div>
         </div>
       </div>
-      <form class="contact-form reveal" id="contactForm">
+      <form class="contact-form reveal" id="contactForm
+            action="https://formspree.io/f/maqdrpbd" method="POST">
         <div class="form-row">
           <div class="form-group">
             <label for="formName">Name</label>
-            <input type="text" id="formName" placeholder="Your name" required>
+            <input type="text" id="formName" name="name" placeholder="Your name" required>
           </div>
           <div class="form-group">
             <label for="formEmail">Email</label>
-            <input type="email" id="formEmail" placeholder="your@email.com" required>
+            <input type="email" id="formEmail" name="email" placeholder="your@email.com" required>
           </div>
         </div>
         <div class="form-group">
           <label for="formSubject">Subject</label>
-          <input type="text" id="formSubject" placeholder="Project inquiry, collaboration...">
+          <input type="text" id="formSubject" name="subject" placeholder="Project inquiry, collaboration...">
         </div>
         <div class="form-group">
           <label for="formMsg">Message</label>
-          <textarea id="formMsg" rows="5" placeholder="Tell me about your project..." required></textarea>
+          <textarea id="formMsg" rows="5" name="message" placeholder="Tell me about your project..." required></textarea>
         </div>
         <button type="submit" class="btn-primary full-width">
           Send Message <i class="fa-solid fa-paper-plane"></i>
@@ -420,12 +421,15 @@
     document.getElementById('openMenu').addEventListener('click', () => {
       navBar.classList.add('open');
       document.body.style.overflow = 'hidden';
+      document.getElementById('openMenu').classList.add('nav-is-open');
     });
 
     function closeNav() {
       navBar.classList.remove('open');
       document.body.style.overflow = '';
+      document.getElementById('openMenu').classList.remove('nav-is-open');
     }
+
     document.getElementById('closeMenu').addEventListener('click', closeNav);
     document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', closeNav));
 
@@ -445,13 +449,38 @@
     }, { passive: true });
 
     /* ── CONTACT FORM ────────────────────────────────────── */
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const note = document.getElementById('formNote');
-      note.textContent = '✅ Thanks! This is a static site — please email umer.azmi0@gmail.com directly.';
-      note.classList.add('visible');
-      this.reset();
-    });
+      document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const btn  = this.querySelector('button[type="submit"]');
+        const note = document.getElementById('formNote');
+
+        btn.textContent = 'Sending...';
+        btn.style.opacity = '0.7';
+
+        try {
+          const response = await fetch(this.action, {
+            method: 'POST',
+            body: new FormData(this),
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            note.textContent = '✅ Message sent! I\'ll get back to you soon.';
+            note.style.color = '#3ecf5e';
+            note.classList.add('visible');
+            this.reset();
+          } else {
+            note.textContent = '❌ Something went wrong. Please email me directly.';
+            note.classList.add('visible');
+          }
+        } catch {
+          note.textContent = '❌ Network error. Please email me directly.';
+          note.classList.add('visible');
+        }
+
+        btn.textContent = 'Send Message ✈';
+        btn.style.opacity = '1';
+      });
 
     /* ── OBSERVE STATIC ELEMENTS ─────────────────────────── */
     observe('.service-card');
