@@ -2,17 +2,17 @@
 
 Modern, fully responsive portfolio built with HTML, CSS, and JavaScript. Content dynamically rendered from JSON with a dark theme and smooth animations.
 
-🔗 **Live:** [umerazmi.github.io](https://umerazmi.github.io/)
+🔗 **Live:** [View Live Portfolio](https://umerazmi.github.io/)
 
 ---
 
 ## 🖥 Preview
 
 ### Desktop
-<img src="images/desktop-preview.png" alt="Desktop Preview" width="700">
+<img src="images/desktop-preview.png" alt="Desktop Preview" width="600">
 
 ### Mobile
-<img src="images/mobile-preview.png" alt="Mobile Preview" width="300">
+<img src="images/mobile-preview.png" alt="Mobile Preview" width="280">
 
 ---
 
