@@ -13,7 +13,7 @@
       "title": "BookHub – AI Book Recommendation System",
       "description": "A content-based book recommendation system using NLP techniques such as cosine similarity and vectorization to suggest personalized book recommendations.",
       "technologies": ["Python", "Streamlit", "Pandas", "Scikit-learn"],
-      "link": null,
+      "link": "https://bookhu3.streamlit.app/",
       "image": "images/bookhub.png",
       "video": null,
       "status": "completed"
