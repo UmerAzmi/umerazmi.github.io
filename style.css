@@ -1071,7 +1071,17 @@ footer p strong { color: var(--text); }
   .form-row { grid-template-columns: 1fr; }
 
   /* Footer */
-  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .footer-logo {
+    margin-bottom: 0.4rem;
+  }
+  footer p {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 500px) {
