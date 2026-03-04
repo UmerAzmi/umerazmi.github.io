@@ -151,6 +151,7 @@
       <button class="filter-btn" data-filter="live">Live</button>
       <button class="filter-btn" data-filter="in development">In Dev</button>
       <button class="filter-btn" data-filter="concept">Concept</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
     </div>
     <div id="projectsContainer" class="projects-grid">
       <div class="loader"><i class="fa-solid fa-circle-notch fa-spin"></i></div>
@@ -312,7 +313,8 @@
       const map = {
         'live':           { cls: 'badge-live',    icon: '●', label: 'Live' },
         'in development': { cls: 'badge-dev',     icon: '◑', label: 'In Dev' },
-        'concept':        { cls: 'badge-concept', icon: '○', label: 'Concept' }
+        'concept':        { cls: 'badge-concept', icon: '○', label: 'Concept' },
+        'completed':      { cls: 'badge-completed', icon: '✓', label: 'Completed' }
       };
       const b = map[status] || map['concept'];
       return `<span class="status-badge ${b.cls}">${b.icon} ${b.label}</span>`;

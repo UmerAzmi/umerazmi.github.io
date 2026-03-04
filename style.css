@@ -758,6 +758,7 @@ section { padding: 11rem 8%; }
 .badge-live    { background: rgba(50,200,80,0.12); color: #45c864; border: 1px solid rgba(50,200,80,0.28); }
 .badge-dev     { background: rgba(250,175,50,0.1); color: #f0b030; border: 1px solid rgba(250,175,50,0.28); }
 .badge-concept { background: var(--red-soft);      color: var(--red); border: 1px solid var(--red-border); }
+.badge-completed { background: rgba(80,140,255,0.1); color: #6ea8ff; border: 1px solid rgba(80,140,255,0.28); }
 
 .proj-body h3 { font-size: 1.9rem; font-weight: 700; }
 .proj-body > p { font-size: 1.38rem; color: var(--text-muted); line-height: 1.72; flex: 1; }
