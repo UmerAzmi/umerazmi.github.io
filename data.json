@@ -35,7 +35,16 @@
       "image": "images/js-mastery.png",
       "video": null,
       "status": "live"
-    }
+    },
+    {
+    "title": "Explore More Projects",
+    "description": "Browse additional tools, applications, and learning projects available on my GitHub profile.",
+    "technologies": ["Python", "JavaScript", "SQL", "and more"],
+    "link": "https://github.com/UmerAzmi",
+    "image": null,
+    "video": null,
+    "status": "live"
+  }
   ],
   "skills": {
     "programming_languages": [
