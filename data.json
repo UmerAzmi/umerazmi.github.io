@@ -5,8 +5,8 @@
       "description": "An AI-powered system to generate and decode QR codes with enhanced artistic styling. Built with Python and deployed using Streamlit for an interactive web interface.",
       "technologies": ["Python", "Streamlit", "OpenCV", "PIL", "NumPy"],
       "link": null,
-      "image": "images/qr_project.png",
-      "video": null,
+      "image": null,
+      "video": "videos/qr-code.mp4",
       "status": "completed"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Fair Care Pharmacy Website",
       "description": "A responsive business website developed for a local pharmacy to establish an online presence with contact integration, Google Maps, and WhatsApp access.",
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-      "link": "https://your-vercel-link.vercel.app",
+      "link": "https://fair-care-website.vercel.app/",
       "image": "images/faircare.png",
       "video": null,
       "status": "live"
@@ -32,7 +32,7 @@
       "description": "An interactive JavaScript learning platform covering fundamentals to advanced concepts including asynchronous programming and DOM manipulation with live examples.",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "link": "https://UmerAzmi.github.io/javascript-mastery/",
-      "image": "images/js_mastery.png",
+      "image": "images/js-mastery.png",
       "video": null,
       "status": "live"
     }
