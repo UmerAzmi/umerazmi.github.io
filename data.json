@@ -1,5 +1,23 @@
 {
     "projects": [
+      {
+        "title": "Fair Care Pharmacy Website",
+        "description": "A responsive business website developed for a local pharmacy to establish an online presence with contact integration, Google Maps, and WhatsApp access.",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+        "link": "https://fair-care-website.vercel.app/",
+        "image": "images/projects/faircare.png",
+        "video": null,
+        "status": "live"
+      },
+      {
+        "title": "JavaScript Mastery Guide",
+        "description": "An interactive JavaScript learning platform covering fundamentals to advanced concepts including asynchronous programming and DOM manipulation with live examples.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "link": "https://UmerAzmi.github.io/javascript-mastery/",
+        "image": "images/projects/js-mastery.png",
+        "video": null,
+        "status": "live"
+      },
     {
       "title": "AI Embedded QR Code Generator & Decoder",
       "description": "An AI-powered system to generate and decode QR codes with enhanced artistic styling. Built with Python and deployed using Streamlit for an interactive web interface.",
@@ -14,25 +32,7 @@
       "description": "A content-based book recommendation system using NLP techniques such as cosine similarity and vectorization to suggest personalized book recommendations.",
       "technologies": ["Python", "Streamlit", "Pandas", "Scikit-learn"],
       "link": "https://bookhu3.streamlit.app/",
-      "image": "images/bookhub.png",
-      "video": null,
-      "status": "live"
-    },
-    {
-      "title": "Fair Care Pharmacy Website",
-      "description": "A responsive business website developed for a local pharmacy to establish an online presence with contact integration, Google Maps, and WhatsApp access.",
-      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-      "link": "https://fair-care-website.vercel.app/",
-      "image": "images/faircare.png",
-      "video": null,
-      "status": "live"
-    },
-    {
-      "title": "JavaScript Mastery Guide",
-      "description": "An interactive JavaScript learning platform covering fundamentals to advanced concepts including asynchronous programming and DOM manipulation with live examples.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "link": "https://UmerAzmi.github.io/javascript-mastery/",
-      "image": "images/js-mastery.png",
+      "image": "images/projects/bookhub.png",
       "video": null,
       "status": "live"
     },
