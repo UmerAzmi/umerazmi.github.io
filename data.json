@@ -39,7 +39,7 @@
     {
     "title": "Explore More Projects",
     "description": "Browse additional tools, applications, and learning projects available on my GitHub profile.",
-    "technologies": ["Python", "JavaScript", "SQL", "and more"],
+    "technologies": ["Python", "JavaScript", "SQL", "Others"],
     "link": "https://github.com/UmerAzmi",
     "image": null,
     "video": null,
@@ -49,18 +49,20 @@
   "skills": {
     "programming_languages": [
       { "name": "Python", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-      { "name": "NumPy", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
-      { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
-      { "name": "Streamlit", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
-      { "name": "OpenCV", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
-      { "name": "Matplotlib", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" },
       { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
       { "name": "C", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
       { "name": "C++", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
       { "name": "Java", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" }
     ],
+    "libraries": [
+      { "name": "NumPy", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+      { "name": "Pandas", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+      { "name": "Streamlit", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
+      { "name": "OpenCV", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+      { "name": "Matplotlib", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" }
+    ],
     "databases": [
-      { "name": "SQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
       { "name": "MySQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
       { "name": "PostgreSQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
     ],
@@ -68,15 +70,25 @@
       { "name": "HTML", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
       { "name": "CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       { "name": "Tailwind CSS", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-      { "name": "React", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-      { "name": "Next.js", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" }
+      { "name": "React", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" }
     ],
     "data_tools": [
       { "name": "Power BI", "logo": "https://img.icons8.com/color/48/power-bi.png" },
       { "name": "Excel", "logo": "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" },
       { "name": "Tableau", "logo": "https://img.icons8.com/color/48/tableau-software.png" }
+    ],
+    "version_control": [
+      { "name": "Git", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+      { "name": "GitHub", "logo": "https://img.icons8.com/fluency/48/github.png" }
+    ],
+    "ai_tools": [
+      { "name": "ChatGPT",    "logo": "https://img.icons8.com/color/48/chatgpt.png" },
+      { "name": "Claude",     "logo": "https://img.icons8.com/color/48/claude.png" },
+      { "name": "DeepSeek",   "logo": "https://img.icons8.com/color/48/deepseek.png" },
+      { "name": "Perplexity", "logo": "https://img.icons8.com/color/48/perplexity.png" },
+      { "name": "Ollama",     "logo": "https://img.icons8.com/color/48/ollama.png" },
+      { "name": "CodeLlama",  "logo": "https://img.icons8.com/color/48/meta.png" }
     ]
-
   },
   "education": [
     {
