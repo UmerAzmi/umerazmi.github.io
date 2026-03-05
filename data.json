@@ -88,7 +88,7 @@
     ],
 
     "ai_tools": [
-      { "name": "ChatGPT", "logo": "./images/icons/openai.svg" },
+      { "name": "ChatGPT", "logo": "./images/icons/chatgpt.svg" },
       { "name": "Claude", "logo": "./images/icons/claude.svg" },
       { "name": "DeepSeek", "logo": "./images/icons/deepseek.svg" },
       { "name": "Perplexity", "logo": "./images/icons/perplexity.svg" },
