@@ -114,9 +114,16 @@
   ],
   "experience": [
     {
+      "role": "IT Project Coordinator",
+      "company": "Bureau Veritas",
+      "period": "Apr 2026 - Present",
+      "description": "Supported data handling and validation tasks using structured formats and system configurations.",
+      "highlights": ["Performed requirements analysis and supported User Acceptance Testing (UAT) for system implementation", "Validated system configurations and ensured data quality through structured checks", "Collaborated with technical teams on issue resolution, debugging, and workflow optimization"]
+    },
+    {
       "role": "Freelance Web Developer",
       "company": "Self-Employed",
-      "period": "Oct 2025 - Present",
+      "period": "Oct 2025 - Apr 2026",
       "description": "Built and delivered custom websites and web applications for clients across various industries.",
       "highlights": ["Built pharmacy website using Next.js and Tailwind CSS", "Improved Shopify e-commerce UI through CSS customization", "Currently developing a responsive education platform"]
     },
